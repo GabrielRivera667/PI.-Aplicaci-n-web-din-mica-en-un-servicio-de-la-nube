@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gestor Multimedia</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📂 Gestor de Recursos Multimedia</h1>
+</header>
+
+<div class="container">
+
+    <div class="form">
+        <h3>Agregar nuevo recurso</h3>
+
+        <input type="text" id="title" placeholder="Título">
+        <textarea id="desc" placeholder="Descripción"></textarea>
+        <input type="text" id="link" placeholder="Link (YouTube, Drive, web, imagen)">
+
+        <button onclick="addItem()">Guardar</button>
+    </div>
+
+    <div class="grid" id="list"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
